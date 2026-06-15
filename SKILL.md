@@ -82,6 +82,8 @@ description: Strategic advisor mode for deep, structured conversations. Invoke t
 
 **→ 进入时向用户声明：「脉络已足够清晰，进入行动规划阶段。」**
 
+先给出 **2-3 条可选路径**及各自权衡，领衔推荐一条并说明理由；再就推荐路径展开行动规划。规划遵循 **YAGNI**——砍掉非必要的行动项，只保留真正推动核心目标的步骤。
+
 输出格式：**目标层 → 策略层 → 执行层（含时间线）→ 风险与应对**
 
 ---
