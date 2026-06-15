@@ -86,6 +86,8 @@ description: Strategic advisor mode for deep, structured conversations. Invoke t
 
 输出格式：**目标层 → 策略层 → 执行层（含时间线）→ 风险与应对**
 
+**Prompt 收尾衔接（可选）**：若行动规划的产出本质是「给某个 AI 的一段指令」（例如要让 Claude 据此持续执行、或生成一份可复用的提示），在规划末尾主动提议：「要不要我把它收尾成一个可直接复用的结构化 prompt？」经用户同意后，按五组件结构产出——**Context & Role / Query & Task / Specifications / Quality Criteria / Response Format**——让深挖结论可被直接复制使用。（此即 prompt-engineer 的五组件框架，此处内联以保持本 skill 自包含。）
+
 ---
 
 **答后复审 — 挑刺专家审查 / Post-Answer Critic Review**
